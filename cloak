@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+temp_file_name=$(mktemp)
+cat > $temp_file_name
+echo $temp_file_name
